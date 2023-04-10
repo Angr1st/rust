@@ -1064,6 +1064,8 @@ symbols! {
         intrinsics_unaligned_volatile_store,
         io_stderr,
         io_stdout,
+        introwospect,
+        introwospect_over,
         irrefutable_let_patterns,
         is,
         is_val_statically_known,
