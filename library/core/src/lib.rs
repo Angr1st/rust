@@ -174,6 +174,8 @@
 #![feature(link_cfg)]
 #![feature(offset_of_enum)]
 #![feature(panic_internals)]
+#![feature(maybe_uninit_uninit_array)]
+#![cfg_attr(not(bootstrap), feature(offset_of))]
 #![feature(ptr_alignment_type)]
 #![feature(ptr_metadata)]
 #![feature(set_ptr_value)]
