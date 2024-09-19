@@ -218,7 +218,8 @@
 //! and so-on, and so-forth.
 
 #![unstable(feature = "introwospection", issue = "none")]
-
+#![feature(const_trait_impl)]
+#![feature(effects)]
 use crate::any::type_name;
 use crate::any::{Any, TypeId};
 use crate::fmt::{Debug, Display, Formatter, Result};
